@@ -11,12 +11,11 @@ public class User {
     UUID id;
     private String name;
 
+    // Constructor vacio por defecto
     public User() {
     }
 
-    public User(String name) {
-        this(name, UUID.randomUUID());
-    }
+    public User(String name) { this(name, UUID.randomUUID());}
 
     public User(String name, UUID id) {
         super();
